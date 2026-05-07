@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(125, 9, 9);
+
+}
+
+h1{
+    max-width: 900px;
+}
+
+
+.box{
+    width: 50px;
+    height:50px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.circle{
+    width: 50px;
+    height:50px;
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    border-radius: 50%;
+}
+
+.house{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+    border-left: 1 px dashed black;
+    border-right: 1 px dashed black;
+    top: 400px;
+    left: 400px;
+    
+}
+
+p{
+    color: white;
+     font-family: copperplate; 
+}

@@ -1,0 +1,74 @@
+body {
+/* height: 100vh; */
+/* background-color: #690101; */
+padding: 20px;
+background: linear-gradient(-45deg, #a51717, #690101, #000000, #b60f0f);
+background-size: 500% 100%;
+color: white;
+animation: gradient 20s ease infinite;
+justify-content: center;   /* vertical center */
+align-items: center;       /* horizontal center */
+text-align: center; 
+}
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+ul {
+    list-style: none;   /* removes bullets */
+    padding: 0;         /* removes left indent */
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-family: Snell Roundhand, cursive; 
+    font-size: 40px;
+}
+
+h4,h3 {
+    font-family: Snell Roundhand, cursive;
+    font-size: 25px;
+}
+
+.desc {
+    font-family: Apple Chancery, cursive;
+}
+
+/* CSS */ 
+.button-87 { 
+    margin: 10px; 
+    padding: 15px 30px; 
+    text-align: center;  
+    transition: 0.5s; 
+    background-size: 200% auto; 
+    color: white;
+    font-family: Apple Chancery, cursive;
+     border-radius: 10px; 
+     display: block; 
+     border: 0px; 
+     font-weight: 700; 
+     box-shadow: 0px 0px 14px -7px #ff0000; 
+     background-image: linear-gradient(45deg, #480101 0%, #3c0000 51%, #700000 100%); 
+     cursor: pointer; 
+     user-select: none; 
+     -webkit-user-select: none; 
+    touch-action: manipulation; } 
+    
+    .button-87:hover { 
+        background-position: right center; /* change the direction of the change here */ 
+        color: #fff; text-decoration: none; } 
+        
+        .button-87:active { transform: scale(0.95); }

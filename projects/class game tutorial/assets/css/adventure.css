@@ -1,0 +1,31 @@
+:root {
+  --green: springgreen;
+}
+
+/*having :root  lets you apply this code to everything*/
+/*the -- is important use it! */
+
+body {
+  background-color: black;
+  color: var(--green);
+  font-family: Copperplate;
+  font-size: 15px;
+}
+pre {
+  color: red;
+} /* add this section if you want the 
+image to be different than the body, cause pre is within
+body tag*/
+
+.choice {
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+/*this class choices allows them to be clickable options*/
+
+.choice:hover {
+  background-color: var(--green);
+  color: black;
+}
